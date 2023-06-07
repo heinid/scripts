@@ -1,5 +1,5 @@
 /* global api */
-class fren_Collins {
+class german_Collins {
     constructor(options) {
         this.options = options;
         this.maxexample = 2;
@@ -10,7 +10,7 @@ class fren_Collins {
         let locale = await api.locale();
         if (locale.indexOf('CN') != -1) return '柯林斯法英词典';
         if (locale.indexOf('TW') != -1) return '柯林斯法英词典';
-        return 'Collins FR->EN Dictionary';
+        return 'Collins GE->EN Dictionary';
     }
 
     setOptions(options) {
