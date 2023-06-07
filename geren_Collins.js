@@ -8,8 +8,8 @@ class german_Collins {
 
     async displayName() {
         let locale = await api.locale();
-        if (locale.indexOf('CN') != -1) return '柯林斯法英词典';
-        if (locale.indexOf('TW') != -1) return '柯林斯法英词典';
+        if (locale.indexOf('CN') != -1) return '柯林斯德英词典';
+        if (locale.indexOf('TW') != -1) return '柯林斯德英词典';
         return 'Collins GE->EN Dictionary';
     }
 
